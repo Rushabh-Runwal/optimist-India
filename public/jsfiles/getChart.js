@@ -10,7 +10,7 @@ async function getdata() {
         Peoplerecoverd.push(data.dailyrecovered);
         days.push(data.date);
     })
-     document.getElementById("totalRecovered").innerText = "Total Recovered: "+data.statewise[0].recovered;
+     document.getElementById("totalRecovered").innerText= "People healed: "+data.statewise[0].recovered;
     console.log(Peoplerecoverd);
     console.log(days);
 // #Total_recovered = totalRecoveredPeople 
