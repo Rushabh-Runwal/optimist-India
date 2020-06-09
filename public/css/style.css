@@ -53,6 +53,10 @@ background: linear-gradient(to right, #CFDEF3, #E0EAFC);
     margin: auto;
 }
 
+.Source-info{
+    position: absolute;
+    bottom: 5%;
+}
 
 .blog1 {
   width: 200%;
@@ -88,7 +92,10 @@ background: linear-gradient(to right, #CFDEF3, #E0EAFC);
 /*      #343a40;*/
 }
 
-
+@media(min-width: )
+#myChart {
+    
+}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
@@ -100,6 +107,14 @@ h4{
 h4.card-title{
     text-decoration: none;
 }
+
+#totalRecovered {
+    margin-top: 5%;
+    float: right; 
+    color: rgba(0, 99, 132, 1);
+}
+
+
 h3{
   font-family: 'Oswald', sans-serif;
 }
@@ -144,6 +159,7 @@ h3{
   margin-bottom: 0;
 }
 
+/*
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
@@ -158,3 +174,4 @@ h3{
     font-size: 3.5rem;  
   }
 }
+*/
